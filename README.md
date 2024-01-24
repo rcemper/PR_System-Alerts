@@ -14,7 +14,7 @@ This project captures customized critical InterSystems IRIS for Health productio
   Install and Configure [InterSystems HealthShare](https://www.intersystems.com/interoperability-platform/) or [InsterSystems IRIS for Health](https://www.intersystems.com/data-platform/)
   
 ## Installation
-     1. Install DailyProductionAlertsNotification.cls into a generic namespace and folder. E.g.; UCDavis.Tasks.DailyProductionAlertsNotifications
+    1. Install DailyProductionAlertsNotification.cls into a generic namespace and folder. E.g.; UCDavis.Tasks.DailyProductionAlertsNotifications
         
 ![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/83c57ac0-9130-42c9-865b-94291a606220)
 
