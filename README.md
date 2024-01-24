@@ -14,46 +14,47 @@ This project captures customized critical InterSystems IRIS for Health productio
   Install and Configure [InterSystems HealthShare](https://www.intersystems.com/interoperability-platform/) or [InsterSystems IRIS for Health](https://www.intersystems.com/data-platform/)
   
 ## Installation
-    1. Install DailyProductionAlertsNotification.cls into a generic namespace and folder. E.g.; UCDavis.Tasks.DailyProductionAlertsNotifications
+     1. Install DailyProductionAlertsNotification.cls into a generic namespace and folder. E.g.; UCDavis.Tasks.DailyProductionAlertsNotifications
         
-![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/9c5c155c-9b0e-4fda-b496-910432316692)
+![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/83c57ac0-9130-42c9-865b-94291a606220)
 
     2. Create a Scheduled Task in the Management Portal – this task will run the installed class.  Fill in the following fields:
-            a.	Task name:  Name for Task
-            b.	Description:  Description for Task
-            c.	Namespace to run task in:  General Namespace for Task
-            d.	Task type:  Name of installed code - DailyProductionAlertsNotifications.cls
-            e.	AlertThresholdElevated:  Alert Message Elevated Count Threshold (Message Count Highlighted In Yellow)
-            f.	AlertThresholdHigh:  Alert Message High Count Threshold (Message Count Highlighted In Red)
-            g.	CombinedThresholdElevated:  Error Warning Message Total Count Elevated Count Threshold (Message Count Highlighted In Yellow)
-            h.	CombinedThresholdHigh:  Error Warning Message Total Count High Count Threshold (Message Count Highlighted In Red)
-            i.	ErrorThresholdElevated:  Error Message Elevated Count Threshold (Message Count Highlighted In Yellow)
-            j.	ErrorThresholdHigh:  Error Message High Count Threshold (Message Count Highlighted In Red)
-            k.	FilePathToMonitor:  File Paths to Monitor for the Folder Space Utilization Counts
-            l.	Namespaces:  Namespaces for to Include in Reporting
-            m.	QueueThresholdElevated:  Queue Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
-            n.	QueueThresholdHigh:  Queue Message High Counts Threshold (Message Count Highlighted In Red)
-            o.	SuspendThresholdElevated:  Suspend Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
-            p.	SuspendThresholdHigh:  Suspend Message High Counts Threshold (Message Count Highlighted In Red)
-            q.	ToEmail:  Email(s) Recipient List to Receive Report
-            r.	WarnThresholdElevated:  Warning Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
-            s.	WarnThresholdHigh:  Warning Message High Counts Threshold (Message Count Highlighted In Red)
-            t.	Run task as this user:  User Authorized to Run the Task
+        a. Task name:  Name for Task
+        b. Description:  Description for Task
+        c. Namespace to run task in:  General Namespace for Task
+        d. Task type:  Name of installed code - DailyProductionAlertsNotifications.cls
+        e. AlertThresholdElevated:  Alert Message Elevated Count Threshold (Message Count Highlighted In Yellow)
+        f. AlertThresholdHigh:  Alert Message High Count Threshold (Message Count Highlighted In Red)
+        g. CombinedThresholdElevated:  Error Warning Message Total Count Elevated Count Threshold (Message Count Highlighted In Yellow)
+        h. CombinedThresholdHigh:  Error Warning Message Total Count High Count Threshold (Message Count Highlighted In Red)
+        i. ErrorThresholdElevated:  Error Message Elevated Count Threshold (Message Count Highlighted In Yellow)
+        j. ErrorThresholdHigh:  Error Message High Count Threshold (Message Count Highlighted In Red)
+        k. FilePathToMonitor:  File Paths to Monitor for the Folder Space Utilization Counts
+        l. Namespaces:  Namespaces for to Include in Reporting
+        m. QueueThresholdElevated:  Queue Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
+        n. QueueThresholdHigh:  Queue Message High Counts Threshold (Message Count Highlighted In Red)
+        o. SuspendThresholdElevated:  Suspend Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
+        p. SuspendThresholdHigh:  Suspend Message High Counts Threshold (Message Count Highlighted In Red)
+        q. ToEmail:  Email(s) Recipient List to Receive Report
+        r. WarnThresholdElevated:  Warning Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
+        s. WarnThresholdHigh:  Warning Message High Counts Threshold (Message Count Highlighted In Red)
+        t. Run task as this user:  User Authorized to Run the Task
 
-![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/6d32c0c5-f82e-4ec4-9bb7-701146b43c5e)
+![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/a6576829-045f-4aa0-9513-0ccc5b1fe6c0)
 
-            u.	often do you want the Task Manager to execute this task?:   Daily, Weekly, Monthly, Monthly (by day), After Another Task Completes, On Demand
-            v.	Every ______ days(s):   Number of Times/Days to Run Task.  E.g.; 1 = 1 time per day if Daily was selected for Above Step
-            w.	Start Date (mm/dd/ How yyyy) __________ :  Date Task Will First Run
-            x.	Run once at this time: ____________ :   Time Report Will Run
+        u. How often do you want the Task Manager to execute this task?:   Daily, Weekly, Monthly, Monthly (by day), After Another Task Completes, On Demand
+        v. Every ______ days(s):   Number of Times/Days to Run Task.  E.g.; 1 = 1 time per day if Daily was selected for Above Step
+        w. Start Date (mm/dd/ How yyyy) __________ :  Date Task Will First Run
+        x. Run once at this time: ____________ :   Time Report Will Run
             Or
             Run every ___________ Minutes/Hours/ :  
 
-![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/166ffbe5-6a4c-46a6-8640-1d171a83b6cf)
+![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/165697ea-0415-4190-b45d-9b1b4234bbba)
 
 Below is an example of the email detailing the data:
 
-![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/b4a891ec-4bf2-4163-bb64-bdfe82173eb4)
-![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/38d623a0-39dd-429b-9855-a5b5e9340076)
+![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/294f9294-e129-4e93-becd-3d4eae22c7f5)
+![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/73823975-47f7-4bd8-9371-6a4340f50263)
+
 
 
