@@ -30,7 +30,9 @@ Please refer to the file TaskList for a complete list of fields
 Below is an example of the email detailing the data:
 
 ![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/294f9294-e129-4e93-becd-3d4eae22c7f5)
-![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/73823975-47f7-4bd8-9371-6a4340f50263)
+![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/0d320830-0d18-4b91-bcd2-01c37830d7b2)
 
+## Authors and Acknowledgements
+Darren Marks, Katie Bourbeau, Marvin Asercion, Momeena Ali, Scott Nathanson
 
 
