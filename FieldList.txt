@@ -1,0 +1,26 @@
+a.	Task name:  Name for Task
+b.	Description:  Description for Task
+c.	Namespace to run task in:  General Namespace for Task
+d.	Task type:  Name of installed code - DailyProductionAlertsNotifications.cls
+e.	AlertThresholdElevated:  Alert Message Elevated Count Threshold (Message Count Highlighted In Yellow)
+f.	AlertThresholdHigh:  Alert Message High Count Threshold (Message Count Highlighted In Red)
+g.	CombinedThresholdElevated:  Error Warning Message Total Count Elevated Count Threshold (Message Count Highlighted In Yellow)
+h.	CombinedThresholdHigh:  Error Warning Message Total Count High Count Threshold (Message Count Highlighted In Red)
+i.	ErrorThresholdElevated:  Error Message Elevated Count Threshold (Message Count Highlighted In Yellow)
+j.	ErrorThresholdHigh:  Error Message High Count Threshold (Message Count Highlighted In Red)
+k.	FilePathToMonitor:  File Paths to Monitor for the Folder Space Utilization Counts
+l.	Namespaces:  Namespaces for to Include in Reporting
+m.	QueueThresholdElevated:  Queue Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
+n.	QueueThresholdHigh:  Queue Message High Counts Threshold (Message Count Highlighted In Red)
+o.	SuspendThresholdElevated:  Suspend Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
+p.	SuspendThresholdHigh:  Suspend Message High Counts Threshold (Message Count Highlighted In Red)
+q.	ToEmail:  Email(s) Recipient List to Receive Report
+r.	WarnThresholdElevated:  Warning Message Elevated Counts Threshold (Message Count Highlighted In Yellow)
+s.	WarnThresholdHigh:  Warning Message High Counts Threshold (Message Count Highlighted In Red)
+t.	Run task as this user:  User Authorized to Run the Task
+u.	How often do you want the Task Manager to execute this task?:   Daily, Weekly, Monthly, Monthly (by day), After Another Task Completes, On Demand
+v.	Every ______ days(s):   Number of Times/Days to Run Task.  E.g.; 1 = 1 time per day if Daily was selected for Above Step
+w.	Start Date (mm/dd/ How yyyy) __________ :  Date Task Will First Run
+x.	Run once at this time: ____________ :   Time Report Will Run
+Or
+Run every ___________ Minutes/Hours/ :  
