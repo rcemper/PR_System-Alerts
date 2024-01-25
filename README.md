@@ -33,6 +33,6 @@ Below is an example of the email detailing the data:
 ![image](https://github.com/SysIntergrationTechTeam/System-Alerts/assets/110857238/0d320830-0d18-4b91-bcd2-01c37830d7b2)
 
 ## Authors and Acknowledgements
-Darren Marks, Katie Bourbeau, Marvin Asercion, Momeena Ali, Scott Nathanson
+[@Darren.Marks](https://community.intersystems.com/user/darren-marks), [@Katie.Bourbeau](https://community.intersystems.com/user/katie-bourbeau), [@Marvin.Asercion](https://community.intersystems.com/user/marvin-asercion), [@Scott.Nathanson](https://community.intersystems.com/user/scott-nathanson), [@Momeena.Ali](https://community.intersystems.com/user/momeena-ali)
 
 
