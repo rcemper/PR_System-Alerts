@@ -48,7 +48,7 @@ to build and start the container run
 ```
 $ docker compose up -d && docker compose logs -f
 ```
-A deom Task is prepared. It's named **docker**    
+A demo Task is prepared. It is named **docker**    
 http://localhost:42773/csp/sys/op/%25CSP.UI.Portal.TaskInfo.zen?$ID1=1000      
 It is ready for you to adjust it to your needs.    
 
