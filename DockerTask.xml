@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks><Task>
+  <Name>docker</Name>
+  <RunAsUser>_SYSTEM</RunAsUser>
+  <EmailOutput>false</EmailOutput>
+  <Expires>true</Expires>
+  <OpenOutputFile>false</OpenOutputFile>
+  <OutputFileIsBinary>true</OutputFileIsBinary>
+  <SuspendOnError>false</SuspendOnError>
+  <SuspendTerminated>false</SuspendTerminated>
+  <Suspended>0</Suspended>
+  <Priority>0</Priority>
+  <TaskClass>UCDavis.Tasks.DailyProductionAlertsNotifcations</TaskClass>
+  <Settings>GAFBbGVydFRocmVzaG9sZEVsZXZhdGVkBAExMBQBQWxlcnRUaHJlc2hvbGRIaWdoBAEyMBsBQ29tYmluZWRUaHJlc2hvbGRFbGV2YXRlZAUBMjAwFwFDb21iaW5lZFRocmVzaG9sZEhpZ2gFATMwMRgBRXJyb3JUaHJlc2hvbGRFbGV2YXRlZAUBMTAwFAFFcnJvclRocmVzaG9sZEhpZ2gFATMwMRMBRmlsZVBhdGhUb01vbml0b3IgAS9ob21lL2lyaXNvd25lci9kZXYvZXhwb3J0LmxvZwwBTmFtZXNwYWNlcwYBVVNFUhgBUXVldWVUaHJlc2hvbGRFbGV2YXRlZAQBNTAUAVF1ZXVlVGhyZXNob2xkSGlnaAUBMTAwGgFTdXNwZW5kVGhyZXNob2xkRWxldmF0ZWQEATUwFgFTdXNwZW5kVGhyZXNob2xkSGlnaAUBMTAwCQFUb0VtYWlsAgEXAVdhcm5UaHJlc2hvbGRFbGV2YXRlZAcBNTAxNTETAVdhcm5UaHJlc2hvbGRIaWdoAgE=</Settings>
+  <IsBatch>false</IsBatch>
+  <NameSpace>USER</NameSpace>
+  <TimePeriod>0</TimePeriod>
+  <TimePeriodEvery>1</TimePeriodEvery>
+  <DailyFrequency>0</DailyFrequency>
+  <DailyFrequencyTime>1</DailyFrequencyTime>
+  <DailyIncrement>2</DailyIncrement>
+  <DailyStartTime>08:00:00</DailyStartTime>
+  <DailyEndTime>20:00:00</DailyEndTime>
+  <JobGUID>8935CC4F-178F-11EF-A276-0242AC1C0002</JobGUID>
+  <StartDate>2024-05-22</StartDate>
+  <LastSchedule>0</LastSchedule>
+  <LastStarted>0</LastStarted>
+  <LastFinished>0</LastFinished>
+  <MirrorStatus>1</MirrorStatus>
+  <Type>2</Type>
+  <RescheduleOnStart>true</RescheduleOnStart>
+  <DeleteAfterRun>false</DeleteAfterRun>
+  <Description>demo</Description>
+</Task>
+
+</Tasks>

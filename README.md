@@ -35,4 +35,31 @@ Below is an example of the email detailing the data:
 ## Authors and Acknowledgements
 [@Darren.Marks](https://community.intersystems.com/user/darren-marks), [@Katie.Bourbeau](https://community.intersystems.com/user/katie-bourbeau), [@Marvin.Asercion](https://community.intersystems.com/user/marvin-asercion), [@Scott.Nathanson](https://community.intersystems.com/user/scott-nathanson), [@Momeena.Ali](https://community.intersystems.com/user/momeena-ali)
 
+## Docker    
+
+### Prerequisites
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
+### Installation
+Clone/git pull the repo into any local directory
+```
+$ git clone https://github.com/rcemper/PR_System-Alerts.git
+```
+to build and start the container run     
+```
+$ docker compose up -d && docker compose logs -f
+```
+The prepared taks is named **docker**    
+http://localhost:42773/csp/sys/op/%25CSP.UI.Portal.TaskInfo.zen?$ID1=1000      
+It is ready for you to adjust it to your needs.    
+
+To open IRIS Terminal do:   
+```
+$ docker-compose exec iris iris session iris 
+USER>
+```
+or using **WebTerminal**     
+http://localhost:42773/terminal/      
+
+To access IRIS System Management Portal   
+http://localhost:42773/csp/sys/UtilHome.csp    
 
